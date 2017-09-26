@@ -1,0 +1,2 @@
+- pridat idx pre SOLID tile
+- pridat idx pre LADDER tile
