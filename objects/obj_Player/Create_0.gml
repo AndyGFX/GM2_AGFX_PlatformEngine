@@ -9,7 +9,7 @@ gravity_ = 0.2;
 jump_speed_ = 4;
 max_velocity_ = [2, 4];
 acceleration_ = 0.8;
-anim_state = "undefined";
+anim_state = ANIM_IDLE;
 ladder_check_point_middle = [0,0];
 ladder_check_point_under = [0,0];
 

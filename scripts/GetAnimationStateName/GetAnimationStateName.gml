@@ -2,6 +2,11 @@
 /// @argument1 velocity_y
 /// @argument2 isOnGround
 
+#macro ANIM_IDLE 0
+#macro ANIM_WALK 1
+#macro ANIM_FALL 2
+#macro ANIM_JUMP 3
+
 var velocity_x = argument0;
 var velocity_y = argument1;
 var isOnGround = argument2;
