@@ -13,6 +13,7 @@ anim_state = ANIM_IDLE;
 ladder_check_point_middle = [0,0];
 ladder_check_point_under = [0,0];
 
+tile_id = 0;
 // Get the tilemap id SOLID collision
 var layer_id = layer_get_id("CollisionMap_SOLID");
 collision_id_SOLID = layer_tilemap_get_id(layer_id);

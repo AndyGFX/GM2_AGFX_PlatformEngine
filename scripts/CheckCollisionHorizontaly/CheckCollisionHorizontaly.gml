@@ -33,6 +33,7 @@ if velocity[idX] > 0
 	// +------------+
 	
 	var tile_right_middle = check_tile_points(tile_map_id, [bbox_right-1, bbox_top+tile_size_4], [bbox_right-1, bbox_bottom-1-tile_size_4]);
+	
 	if tile_right || tile_right_middle
 	{
 		x = bbox_right & ~(tile_size-1);

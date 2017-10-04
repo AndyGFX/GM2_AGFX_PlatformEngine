@@ -14,6 +14,7 @@ for (var i=1; i<argument_count; i++)
 {
 	var point = argument[i];
 	found = found or tilemap_get_at_pixel(tile_map_id, point[idX], point[idY]);
+	
 }
 
 // return intersection state
