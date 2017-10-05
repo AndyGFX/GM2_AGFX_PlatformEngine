@@ -6,12 +6,14 @@ if (anim_state==ANIM_IDLE) anim_name = "Idle";
 if (anim_state==ANIM_WALK) anim_name = "Walk";
 if (anim_state==ANIM_JUMP) anim_name = "Jump";
 if (anim_state==ANIM_FALL) anim_name = "Fall";
+if (anim_state==ANIM_CLIMB_UP) anim_name = "ClimbUp";
+if (anim_state==ANIM_CLIMB_DOWN) anim_name = "ClimbDown";
 
 draw_text(10,10,"Animation state: "+anim_name);
 
 draw_text(10,30,"Velocity X: "+string(velocity_[X]));
 draw_text(10,50,"Velocity Y: "+string(velocity_[Y]));
-draw_text(10,80,"TILE ID: "+string(tile_id));
+
 
 draw_text(10,100,"V1: "+string(var1));
 draw_text(10,130,"V2: "+string(var2));

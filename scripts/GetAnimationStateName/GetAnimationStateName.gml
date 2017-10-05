@@ -12,12 +12,12 @@
 
 var velocity_x = argument0;
 var velocity_y = argument1;
-var isOnGround = argument2;
-var isLadder = argument3;
+var on_ground = argument2;
+var on_ladder = argument3;
 
 var anim_state = "";
 
-if (isOnGround)
+if (on_ground)
 {
 	if (velocity_x!=0)
 	{
@@ -30,13 +30,28 @@ if (isOnGround)
 }
 else
 {
-	if (velocity_y>0)
+	if (on_ladder)
+	
 	{
-		anim_state = ANIM_FALL
+		if (velocity_y>0)
+		{
+			anim_state = ANIM_CLIMB_DOWN
+		}
+		else
+		{
+			anim_state = ANIM_CLIMB_UP;
+		}
 	}
 	else
 	{
-		anim_state = ANIM_JUMP;
+		if (velocity_y>0)
+		{
+			anim_state = ANIM_FALL
+		}
+		else
+		{
+			anim_state = ANIM_JUMP;
+		}
 	}
 }
 

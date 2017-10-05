@@ -1,16 +1,15 @@
 /// @argument0 key_jump
 /// @argument1 velocity
 /// @argument2 jump_speed
-/// @argument3 isOnGround
 
 
 var key_jump = argument0;
 var velocity = argument1;
 var jump_speed = argument2;
-var isOnGround = argument3;
+var on_ground = argument3;
 
 // Jumping
-if isOnGround 
+if on_ground 
 {
 	// Jumping
 	if keyboard_check_pressed(key_jump) 

@@ -21,7 +21,9 @@ ladder_check_point_under[Y] = y+2*TILE_SIZE;
 var isLadder_middle = tilemap_get_at_pixel(collision_id_LADDER, ladder_check_point_middle[X], ladder_check_point_middle[Y]);
 var isLadder_under = tilemap_get_at_pixel(collision_id_LADDER, ladder_check_point_under[X], ladder_check_point_under[Y]);
 
-if (isLadder_middle || isLadder_under) 
+isLadder = isLadder_middle || isLadder_under
+
+if (isLadder) 
 {
 	// -----------------------------------------------------------------
 	// check INPUT

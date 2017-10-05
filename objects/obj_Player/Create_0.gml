@@ -9,9 +9,12 @@ gravity_ = 0.2;
 jump_speed_ = 4;
 max_velocity_ = [2, 4];
 acceleration_ = 0.8;
-anim_state = ANIM_IDLE;
 
-tile_id = 0;
+
+anim_state = ANIM_IDLE;
+isOnGround = false;
+isOnLadder = false;
+
 // Get the tilemap id SOLID collision
 var layer_id = layer_get_id("CollisionMap_SOLID");
 collision_id_SOLID = layer_tilemap_get_id(layer_id);
