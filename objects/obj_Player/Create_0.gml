@@ -10,8 +10,6 @@ jump_speed_ = 4;
 max_velocity_ = [2, 4];
 acceleration_ = 0.8;
 anim_state = ANIM_IDLE;
-ladder_check_point_middle = [0,0];
-ladder_check_point_under = [0,0];
 
 tile_id = 0;
 // Get the tilemap id SOLID collision
@@ -21,3 +19,8 @@ collision_id_SOLID = layer_tilemap_get_id(layer_id);
 // Get the tilemap id LADDER collision
 layer_id = layer_get_id("CollisionMap_LADDER");
 collision_id_LADDER = layer_tilemap_get_id(layer_id);
+
+
+var1 = 0
+var2 = 0
+var3 = 0

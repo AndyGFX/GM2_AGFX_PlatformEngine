@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "076ea643-fe84-488b-badd-fab8b556f27a",
+            "Value": {
+                "id": "e0039b36-280c-44f9-9387-78c2023be0d4",
+                "resourcePath": "scripts\\ClimbControl\\ClimbControl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "20e0ce77-1410-4a82-866a-9b239907f58b",
             "Value": {
                 "id": "fe09c721-f4da-4ade-aa46-0b6ae5cb80aa",
@@ -52,6 +60,14 @@
                 "id": "3df9a02b-fed0-4305-b8c4-204a5c29d04f",
                 "resourcePath": "views\\2329e6a1-d4a7-4643-a4b3-bea025e94f7f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a9c4c6c-81b2-47e9-b879-fb3e71726d40",
+            "Value": {
+                "id": "25a1c425-f9a3-44e0-8614-a183c1d64a1b",
+                "resourcePath": "sprites\\origin_red\\origin_red.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "999e2cc4-2fa2-4b0c-afca-5a31e62905b1",
+            "Value": {
+                "id": "d59d5cfe-2836-4fb3-996e-92059b590a7a",
+                "resourcePath": "objects\\obj_Pivot\\obj_Pivot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8ee183b-8a12-4446-9041-151fdb24f045",
             "Value": {
                 "id": "660bd602-8114-4b21-a1a0-f94b78869776",
@@ -325,6 +349,7 @@
         "073afcc7-3155-4f13-bf66-2d470b3f59d2",
         "3659be9e-216e-4229-ae63-14c7fe952d61",
         "3abb1238-5793-4418-a960-b53c33cd9425",
+        "076ea643-fe84-488b-badd-fab8b556f27a",
         "a8ee183b-8a12-4446-9041-151fdb24f045"
     ],
     "tutorial": ""
