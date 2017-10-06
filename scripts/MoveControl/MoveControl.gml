@@ -23,7 +23,7 @@ velocity = clamp(velocity+input, -max_velocity, max_velocity);
 // Friction
 if input == 0 
 {
-	velocity = lerp(velocity, 0, .2);
+	velocity = lerp(velocity, 0, .5);
 }
 
 return velocity

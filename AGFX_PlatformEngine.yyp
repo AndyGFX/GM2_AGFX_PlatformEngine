@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0557267d-08a5-42cb-a777-fcac7db1ae3c",
+            "Value": {
+                "id": "e51be8de-fb22-4c39-8dc0-afb257e2bf72",
+                "resourcePath": "sprites\\spr_Player_WALK\\spr_Player_WALK.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "073afcc7-3155-4f13-bf66-2d470b3f59d2",
             "Value": {
                 "id": "26c109c7-893c-43a3-b73a-eb3d5a2003e7",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "41d4b524-6caf-45ca-a29d-65b80ebee281",
+            "Value": {
+                "id": "03a47bfe-adb6-4ec0-a2c9-eb3f3db377b1",
+                "resourcePath": "views\\41d4b524-6caf-45ca-a29d-65b80ebee281.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "485f3c4a-930b-482f-976b-411c247ee337",
             "Value": {
                 "id": "ad446402-69fb-492d-88ae-f6fe62d61207",
@@ -164,6 +180,14 @@
                 "id": "1f02e20c-eed9-413a-8a3f-c7fb4da86142",
                 "resourcePath": "views\\72944f99-c3e3-4f51-889e-46f43d7ff148.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "736e2a20-5713-43ed-9a74-a7813d7b9191",
+            "Value": {
+                "id": "5b51fad1-94f4-4eb6-aeaa-51d86a2df237",
+                "resourcePath": "sprites\\spr_Player_HURT\\spr_Player_HURT.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -228,6 +252,22 @@
                 "id": "ad14ebfa-1f8c-42fc-ada0-7e6f35d09684",
                 "resourcePath": "views\\9659a053-ca3a-409d-ab72-706d23d1a13a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a32bffd0-8ebd-422f-bc98-17d5d03b617b",
+            "Value": {
+                "id": "dc68e12c-c036-4656-9e03-0f6ee35691fc",
+                "resourcePath": "sprites\\spr_Player_JUMP\\spr_Player_JUMP.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6210dad-8039-4a37-97e2-cdb5d2f7c686",
+            "Value": {
+                "id": "7e7cfeaa-6471-47cd-9ea4-5cc5d0bf1e92",
+                "resourcePath": "sprites\\spr_Player_DEATH\\spr_Player_DEATH.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -340,6 +380,14 @@
                 "id": "2f539e00-b136-4dbd-adbc-33623bf7008b",
                 "resourcePath": "scripts\\SetAnimationByState\\SetAnimationByState.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f094bc37-7fd0-4070-bc02-208b1126ed8f",
+            "Value": {
+                "id": "e3ac4211-20ad-46c9-87d5-575b9dca5fe4",
+                "resourcePath": "sprites\\spr_Player_FALL\\spr_Player_FALL.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
