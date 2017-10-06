@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2b29bbab-a397-4678-8e65-cfb7c2785217",
+            "Value": {
+                "id": "4965d3a2-21cd-411f-8432-3383b7fcae22",
+                "resourcePath": "sprites\\spr_Player_IDLE\\spr_Player_IDLE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2be2fd45-963a-4bd8-8bb3-93eb167a5e11",
             "Value": {
                 "id": "38211992-31b0-4c8f-abf7-1e4ecc0e98e6",
@@ -188,6 +196,14 @@
                 "id": "e29146ef-1d9e-40db-bdde-337a014ed3a6",
                 "resourcePath": "tilesets\\ts_Tileset\\ts_Tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "849fa9a1-a70f-4b0e-b6d7-5f1a6e0f27d8",
+            "Value": {
+                "id": "c85176c7-3243-4baa-8b8b-17e7e8404fa7",
+                "resourcePath": "scripts\\SetHorizontalFacing\\SetHorizontalFacing.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "e9d82de5-3f2e-4b93-a767-0ee82a714714",
+            "Value": {
+                "id": "2f539e00-b136-4dbd-adbc-33623bf7008b",
+                "resourcePath": "scripts\\SetAnimationByState\\SetAnimationByState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f153ba56-cd33-4c09-aa7e-c78cc35d57fd",
             "Value": {
                 "id": "79a9b36f-f5ba-4876-8e5f-50a4f48d24c0",
@@ -351,7 +375,9 @@
         "3abb1238-5793-4418-a960-b53c33cd9425",
         "076ea643-fe84-488b-badd-fab8b556f27a",
         "f47ac652-d40d-4f23-9c05-c4c79a38949b",
-        "a8ee183b-8a12-4446-9041-151fdb24f045"
+        "849fa9a1-a70f-4b0e-b6d7-5f1a6e0f27d8",
+        "a8ee183b-8a12-4446-9041-151fdb24f045",
+        "e9d82de5-3f2e-4b93-a767-0ee82a714714"
     ],
     "tutorial": ""
 }

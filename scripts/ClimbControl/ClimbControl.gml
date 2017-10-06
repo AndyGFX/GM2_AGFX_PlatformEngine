@@ -13,17 +13,17 @@ var max_velocity = 2;
 ladder_check_point_middle = [0,0]
 ladder_check_point_under = [0,0]
 
-ladder_check_point_middle[X] = x+TILE_SIZE;
-ladder_check_point_middle[Y] = y+TILE_SIZE;
-ladder_check_point_under[X] = x+TILE_SIZE;
-ladder_check_point_under[Y] = y+2*TILE_SIZE;
+ladder_check_point_middle[X] = x+x_off+TILE_SIZE;
+ladder_check_point_middle[Y] = y+y_off+TILE_SIZE;
+ladder_check_point_under[X] = x+x_off+TILE_SIZE;
+ladder_check_point_under[Y] = y+y_off+2*TILE_SIZE;
 
 var isLadder_middle = tilemap_get_at_pixel(collision_id_LADDER, ladder_check_point_middle[X], ladder_check_point_middle[Y]);
 var isLadder_under = tilemap_get_at_pixel(collision_id_LADDER, ladder_check_point_under[X], ladder_check_point_under[Y]);
 
-isLadder = isLadder_middle || isLadder_under
+isOnLadder = isLadder_middle || isLadder_under
 
-if (isLadder) 
+if (isOnLadder) 
 {
 	// -----------------------------------------------------------------
 	// check INPUT
@@ -33,6 +33,7 @@ if (isLadder)
 	// -----------------------------------------------------------------
 	// Horizontal movement
 	velocity = clamp(velocity+input, -max_velocity, max_velocity);
+	
 
 	// Friction
 	if input == 0 

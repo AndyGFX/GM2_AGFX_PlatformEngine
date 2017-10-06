@@ -3,7 +3,8 @@
 var anim_name = "";
 
 if (anim_state==ANIM_IDLE) anim_name = "Idle";
-if (anim_state==ANIM_WALK) anim_name = "Walk";
+if (anim_state==ANIM_WALK_LEFT) anim_name = "Walk-left";
+if (anim_state==ANIM_WALK_RIGHT) anim_name = "Walk-right";
 if (anim_state==ANIM_JUMP) anim_name = "Jump";
 if (anim_state==ANIM_FALL) anim_name = "Fall";
 if (anim_state==ANIM_CLIMB_UP) anim_name = "ClimbUp";
@@ -22,4 +23,5 @@ draw_text(10,160,"V3: "+string(var3));
 draw_circle_color(var1*2,var2*2,4, c_yellow, c_yellow, false);
 draw_circle_color(ladder_check_point_middle[X]*2,ladder_check_point_middle[Y]*2,4, c_green, c_green, false);
 draw_circle_color(ladder_check_point_under[X]*2,ladder_check_point_under[Y]*2,4, c_red, c_red, false);
+
 

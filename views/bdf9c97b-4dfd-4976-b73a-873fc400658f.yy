@@ -7,7 +7,8 @@
         "3659be9e-216e-4229-ae63-14c7fe952d61",
         "3abb1238-5793-4418-a960-b53c33cd9425",
         "076ea643-fe84-488b-badd-fab8b556f27a",
-        "f47ac652-d40d-4f23-9c05-c4c79a38949b"
+        "f47ac652-d40d-4f23-9c05-c4c79a38949b",
+        "849fa9a1-a70f-4b0e-b6d7-5f1a6e0f27d8"
     ],
     "filterType": "GMScript",
     "folderName": "Input Control",

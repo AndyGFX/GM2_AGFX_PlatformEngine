@@ -2,6 +2,12 @@
 
 isOnLadder = false;
 
+
+
+SetHorizontalFacing(velocity_)
+
+
+
 // -----------------------------------------------------------------
 //Horizontal Movement
 
@@ -38,3 +44,7 @@ velocity_[Y] = ClimbControl(vk_up,vk_down,velocity_[Y],acceleration_);
 // Get animation state
 
 anim_state = GetAnimationStateName(velocity_[X],velocity_[Y],isOnGround,isOnLadder);
+SetAnimationByState(anim_state)
+
+var1 = x
+var2 = y
